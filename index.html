@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,4 +46,53 @@
 
 
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+   <p>click the button to create a variable, and display the result.</p>
+  <input type="button" onclick="myFunction()" value="try it !"/>
+  <p id="demo"></p>
+  <script src="script.js"></script> 
+ 
+  <p id="demo1"></p>
+  <p id="demo2"></p>
+  <script>
+    function myFunction () {
+      var carName = "volvo";
+      document.getElementById("demo1").innerHTML = typeof carName + " " + carName;
+
+    }
+    myFunction();
+    document.getElementById("demo2").innerHTML = typeof carName;
+  </script>
+
+  <script>
+    var locales = {
+      europe : function() {
+        var myFriend = "monique";
+
+        var France = function (){
+        var Paris = function(){
+          console.log(myFriend);
+        };
+        Paris();
+        };
+        France();
+      }
+
+    };
+
+    locales.europe();
+  </script>
+
+
+</body>
+>>>>>>> 890d04e70187a496394137e1ba5e612e8f602137
 </html>
