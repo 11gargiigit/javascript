@@ -45,85 +45,118 @@ console.log(typeof(num));
 // } ;
 // document.getElementsById("demo").innerHTML = person.getinfo();
 
-var person = {
-  name:'Ramesh',
-  age:30,
-  isMarried : true,
-  address : {
-    street : 'Vijay Nagar',
-    flatNo : 201 
-  }
-};
-console.log(person);
+// var person = {
+//   name:'Ramesh',
+//   age:30,
+//   isMarried : true,
+//   address : {
+//     street : 'Vijay Nagar',
+//     flatNo : 201 
+//   }
+// };
+// console.log(person);
 
-var person2 = new Object();
-person2.name = 'gargi';
-person2.age = 20;
-person2.isMarried = false;
-person2.address = {};
-person2.address.street = "vasundhara";
-person2['address']['flatNo'] = 33;
-console.log(person2);
-
-
-var person = {
-  name : "Mayank",
-  age : 21,
-  isMarried : true,
-  child : ['abhi'],
-  getInfo : function() {
-
-  },
-  address : {
-    street : 'vijay',
-    flatno : 123
-  }
-
-};
-console.log(person);
-console.log(person.flatno);
+// var person2 = new Object();
+// person2.name = 'gargi';
+// person2.age = 20;
+// person2.isMarried = false;
+// person2.address = {};
+// person2.address.street = "vasundhara";
+// person2['address']['flatNo'] = 33;
+// console.log(person2);
 
 
-    function show(){
-      var a="a is local outer variable";
-      document.write(a +  "<br>");
+// var person = {
+//   name : "Mayank",
+//   age : 21,
+//   isMarried : true,
+//   child : ['abhi'],
+//   getInfo : function() {
 
-      function disk(){
-        var b = "b is local inner variable";
-        document.write(b + "<br>");
+//   },
+//   address : {
+//     street : 'vijay',
+//     flatno : 123
+//   }
 
-      }
-      disk();
-    }
-    show();
+// };
+// console.log(person);
+// console.log(person.flatno);
 
-    var name = 'gargi';
-    function first () {
-      var a = 'hello';
-      second () ;
-      var x = a + " " + name;
-     console.log(x);
-    }
 
-    function second() {
-      var b = 'hi';
-      third();
-      var y = b + " "+ name;
-      console.log(y);
-    }
+//     function show(){
+//       var a="a is local outer variable";
+//       document.write(a +  "<br>");
 
-    function third() {
-      var c = 'hey';
-      var z = c + " " + name;
-      console.log(z);
-    }
+//       function disk(){
+//         var b = "b is local inner variable";
+//         document.write(b + "<br>");
 
-    first();
+//       }
+//       disk();
+//     }
+//     show();
 
-    var age = 20;
-    if (age>18) {
-      document.write("<b>you are eligible to vote</b>");
+//     var name = 'gargi';
+//     function first () {
+//       var a = 'hello';
+//       second () ;
+//       var x = a + " " + name;
+//      console.log(x);
+//     }
 
-    }
-  
+//     function second() {
+//       var b = 'hi';
+//       third();
+//       var y = b + " "+ name;
+//       console.log(y);
+//     }
+
+//     function third() {
+//       var c = 'hey';
+//       var z = c + " " + name;
+//       console.log(z);
+//     }
+
+//     first();
+
+//     var age = 20;
+//     if (age>18) {
+//       document.write("<b>you are eligible to vote</br>");
+
+//     }
+    
+
+// var grade = "A";
+// document.write("entering switch block:</br>");
+// switch(grade) {
+//   case 'A': document.write("good job</br>");
+//   break;
+//   case 'B': document.write("pretty good job");
+//   break;
+//   case 'C': document.write("decent job");
+//   break;
+//   case 'D': document.write("not so good job");
+//   break;
+//   case 'F': document.write("poor job");
+//   break;
+//   default : document.write("unidentified grade");
+// }
+
+
+
+
+// var myArray=["A","B","C","D"];
+// for(var i=0;i<myArray.length;i++){
+//   console.log("member of my array in index " + i + " is " + myArray[i]);
+// }
+
+
+// function myFunc() {
+//   alert("hello world!");
+// }
+// <body>
+//   <button onclick="myFunc()">TRY IT !</button>
+// </body>
+
 
