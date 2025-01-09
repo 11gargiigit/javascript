@@ -1,0 +1,38 @@
+<html>
+  <head>
+     <script type="text/javascript">
+    // function Redirect(){
+    //   window.location="https://in.pinterest.com/"
+    // }
+    // document.write("You will be redirected to main page in 10 sec");
+    // setTimeout('Redirect()',1000); 
+      function validateForm(){
+        var x=document.form.myform.value;
+        if(x==null || x==""){
+          alert("first name must be filed out:");
+          return false;
+        }
+        var y=document.form.myform.value;
+        var z = document.form.
+      }
+ 
+    </script>
+
+  </head>
+  <body>
+    <form>
+      <!-- <input type="button" value="Print" onclick="window.print()"/> -->
+       <form name="myform" action="demo_form.asp" onsubmit="return validateForm()" methond="post" >
+        First name : <input type="text" name="fname">
+        <input type="submit" value="submit">
+        <!-- name : <input name="yourname"><br><br>
+        phone : <input name="yournumber"><br><br>
+        email : <input name="email"><br> -->
+
+        <!-- document.addressform.yourname.value
+        document.addressform.yournumber.value
+        document.addressform.email.value -->
+    </form>
+    <scipt src="script.js"></scipt>
+  </body>
+</html>

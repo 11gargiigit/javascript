@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //  const d = new Date("2025-01-09");
+    //  console.log(d);
+
+    //  const d1 = new Date("2025-03");
+    //  console.log(d1);
+
+    //  const d2 = new Date("2025-03-25T12:00:00Z");
+    //  console.log(d2);
+
+    //  const d3 = new Date("03-22-2025");
+    //  console.log(d3);
+
+    //  const d4 = new Date("25 Jan 2024");
+    //  console.log(d4);
+
+    //  let sec = Date.parse("march 25 2025");
+    //  console.log(sec);
+
+    //  let sec1 = Date.parse("march 25 2025");
+    //  const d6 = new Date(sec1);
+    //  console.log(d6);
+
+    //  const d7 = new Date("25 january 2024");
+    //  d7.getFullYear();
+    //  console.log(d7);
+
+    //  const d8 = new Date();
+    //  d8.getFullYear();
+    //  console.log(d8);
+
+    //  const d9 = new Date();
+    //  d9.getMonth();
+    //  console.log(d9);
+
+    //  const months = ["January","Feb","mar","april","may","jun","jul","aug","sept","oct","nov","dec"];
+    //  const days = ["sunday","monday","tues","wed","thurs","fri","sat"];
+    //  const time = [12,6,5,4,9,26,13,89,96,23,27,28,29,34,35,36,37,38,39,16,171,18];
+    //  let date = new Date("12-28-2025");
+    //  let mon = months[date.getMonth()];
+    //  console.log(mon);
+    //  let da = days[date.getDay()];
+    //  console.log(da); 
+    //  let ms = time[date.getTime()%time.length];
+    //  console.log(ms);
+
+    const d = new Date();
+    d.setDate(d.getDate()+ 50);
+    console.log(d);
+     
+    const d1= new Date();                         
+ d1.setDate(d1.getSeconds())
+    console.log(d1);
+
+
+
+
+    let text = "";
+    const today = new Date();
+    const someday = new Date();
+    someday.setFullYear(2100,0,14);
+
+    if(someday>today){
+      console.log( text = "Today is before 14 jan");
+     
+    }
+    else {
+      console.log("Today is after 14 jan");
+      
+    }
+
+   console.log(Math.ceil(-4.2));
+   console.log(Math.trunc(4.9));
+   console.log(Math.trunc(-6.3));
+   console.log(Math.floor(2.3));
+   console.log(Math.sign(0));
+   console.log(Math.pow(8,2));
+   console.log(Math.sqrt(64));
+   console.log(Math.abs(3.8));
+   console.log(Math.sin(56));
+   console.log(Math.min(0,23,45,56,-89));
+   console.log(Math.max(56,-23,80,96,75,120));
+   console.log(Math.random());
+   console.log(Math.log(5));
+   console.log(Math.log10(25));
+   console.log(Math.floor(Math.random()*100)+1);
+   console.log(Math.floor(Math.random()*101));
+
+
+   function getRndInteger(min,max) {
+     return Math.floor(Math.random()*(max-min)+min);
+   }
+   let res = getRndInteger(5,7);
+   console.log(res);
+
+   let num = Number(" ");
+   console.log(num);
+
+   let num1 = Number ("");
+   console.log(num1);
+
+   let num2 = Number("90 88");
+   console.log(num2);
+
+   let da = Number("gargi");
+   console.log(da);
+
+   let y ="5";
+   let x = +y;
+   console.log(y);
+
+   let y1 = "gargi";
+   let x1 = +y1 ;
+   console.log(x1);
+
+   const de = (123).toString();
+   console.log(de);
+
+
+
+  
+  </script>
+   
+    <!-- date.parse =  converts date to time -->
+  
+  
+  
+</body>
+</html>
